@@ -1,0 +1,7 @@
+<h1>Discover Images</h1>
+
+<%= form_with url: '/images', method: :get, local: true do |f| %>
+  <%= f.label :subject, 'Search for Images by Subject' %>
+  <%= f.text_field :subject %>
+  <%= f.submit 'Search' %>
+<% end %>
