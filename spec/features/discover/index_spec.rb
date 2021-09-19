@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'discover page', type: :feature do
+RSpec.describe 'discover index page', type: :feature do
   it 'displays a form to search for images by term' do
     visit '/discover'
 
