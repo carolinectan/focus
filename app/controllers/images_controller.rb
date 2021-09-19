@@ -1,10 +1,5 @@
 class ImagesController < ApplicationController
   def index
-
+    @images = ImageFacade.new(params[:subject])
   end
-
-  # private
-  # def _params
-  #   params.permit(:)
-  # end
 end
