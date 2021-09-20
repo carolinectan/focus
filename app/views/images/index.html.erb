@@ -5,9 +5,10 @@
 <% @images.each do |image| %>
   <div id="image-id-<%= image.id %>">
     <img src="<%= image.url %> alt="<%= params[:subject] %> width="800"">
+    <h2>"<%= image.title.titleize %>" by <%= image.photographer %></h2>
     <br>
       <%= form_with  url: '/images/by_title', method: :get, local: true do |f| %>
-        <%= f.hidden_field :title, value: image.title %>
+        <%= f.hidden_field :title, value: image.title.titleize %>
         <%= f.submit 'Similar Images by Image Title' %>
       <% end %>
 

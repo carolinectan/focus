@@ -21,6 +21,8 @@ RSpec.describe 'images index page', type: :feature do
 
     within '#image-id-189349' do
       expect(page).to have_css('img', count: 1)
+      expect(page).to have_content('"Body Of Water During Golden Hour 189349" by Sebastian Voortman')
+      expect(page).to_not have_content('"Landscape Photograph Of Body Of Water 1001682" by Kellie Churchman')
       expect(page).to have_button('Similar Images by Image Title')
       expect(page).to have_button('Similar Images by Photographer')
     end

@@ -14,7 +14,7 @@ RSpec.describe 'images by title page', type: :feature do
     expect(current_path).to eq('/images/by_title')
     expect(page).to have_content('Similar Images by Image Title Results')
 
-    expect(page).to have_content('Searched for "body-of-water-during-golden-hour-189349"')
+    expect(page).to have_content('Searched for "Body Of Water During Golden Hour 189349"')
     expect(page).to have_css('img', count: 80)
   end
 end
