@@ -62,11 +62,11 @@ Run `bundle exec rspec`
 ### Discover Page
 ![Discover Page](https://user-images.githubusercontent.com/81220681/133979225-a17c90e4-6b7c-45b5-bd57-f9bdc16c654b.png)
 ### Search Results Page
-![Image Search Results Page](https://user-images.githubusercontent.com/81220681/133979226-1f8f8523-a57c-4200-82ac-caaad6600b9e.png)
+![Image Search Results Page](https://user-images.githubusercontent.com/81220681/134067729-3e327d0d-7190-4503-92ac-f564abe35a81.png)
 ### Search by Image Title Results Page
-![Screen Shot 2021-09-20 at 5 06 33 AM](https://user-images.githubusercontent.com/81220681/133979229-124be14e-4a62-47b2-9e4b-316a04b82a74.png)
+![Screen Shot 2021-09-20 at 5 06 33 AM](https://user-images.githubusercontent.com/81220681/134067732-3c70d7c7-2085-469f-94ea-ab021bfb5e5c.png)
 ### Search by Image Photographer Results Page
-![Screen Shot 2021-09-20 at 5 08 05 AM](https://user-images.githubusercontent.com/81220681/133979233-7f91525f-707b-4114-a888-692720506011.png)
+![Screen Shot 2021-09-20 at 5 08 05 AM](https://user-images.githubusercontent.com/81220681/134067737-0f44360a-855b-431e-8935-d1a869222197.png)
 
 ## Additional Resources
 - [Pexels API Documentation](https://www.pexels.com/api/documentation/)
