@@ -34,8 +34,11 @@ Run `bundle exec rspec`
 - In your browser, visit `localhost:3000`
 
 ## Screenshots
+### Welcome Page
 ![Welcome Page](https://user-images.githubusercontent.com/81220681/133963280-16a5a8fa-54b9-4518-968b-c0d40582e82a.png)
+### Discover Page
 ![Discover Page](https://user-images.githubusercontent.com/81220681/133963316-2f046ae5-6b3f-4064-b2bf-08b85b2792a1.png)
+### Search Results Page
 ![Search Results Page](https://user-images.githubusercontent.com/81220681/133963342-586558ac-a385-46ae-a029-81fdcfacdf17.png)
 
 ## Resources
