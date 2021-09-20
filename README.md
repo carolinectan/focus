@@ -10,7 +10,7 @@ Welcome to Focus! This Ruby on Rails application consumes the Pexels API to allo
 - [How to Run the Test Suite](#how-to-run-the-test-suite)
 - [Deployment Instructions](#deployment-instructions)
 - [Screenshots](#screenshots)
-- [Resources](#resources)
+- [Additional Resources](#additional-resources)
 
 ## Technologies
 |Development|Development|Testing
@@ -54,11 +54,15 @@ Run `bundle exec rspec`
 
 ## Screenshots
 ### Welcome Page
-![Welcome Page](https://user-images.githubusercontent.com/81220681/133963280-16a5a8fa-54b9-4518-968b-c0d40582e82a.png)
+![Welcome Page](https://user-images.githubusercontent.com/81220681/133979222-e1d6ee89-053f-4ae9-aa97-d22dd9f4e42c.png)
 ### Discover Page
-![Discover Page](https://user-images.githubusercontent.com/81220681/133963316-2f046ae5-6b3f-4064-b2bf-08b85b2792a1.png)
+![Discover Page](https://user-images.githubusercontent.com/81220681/133979225-a17c90e4-6b7c-45b5-bd57-f9bdc16c654b.png)
 ### Search Results Page
-![Search Results Page](https://user-images.githubusercontent.com/81220681/133963342-586558ac-a385-46ae-a029-81fdcfacdf17.png)
+![Image Search Results Page](https://user-images.githubusercontent.com/81220681/133979226-1f8f8523-a57c-4200-82ac-caaad6600b9e.png)
+### Search by Image Title Results Page
+![Screen Shot 2021-09-20 at 5 06 33 AM](https://user-images.githubusercontent.com/81220681/133979229-124be14e-4a62-47b2-9e4b-316a04b82a74.png)
+### Search by Image Photographer Results Page
+![Screen Shot 2021-09-20 at 5 08 05 AM](https://user-images.githubusercontent.com/81220681/133979233-7f91525f-707b-4114-a888-692720506011.png)
 
-## Resources
+## Additional Resources
 - [Pexels API Documentation](https://www.pexels.com/api/documentation/)
