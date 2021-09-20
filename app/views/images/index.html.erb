@@ -6,5 +6,15 @@
   <div id="image-id-<%= image.id %>">
     <img src="<%= image.url %> alt="<%= params[:subject] %> width="800"">
     <br>
+      <%= form_with  url: '/images/by_title', method: :get, class: 'similar-photos', local: true do |f| %>
+        <%= f.hidden_field :title, value: image.title %>
+        <%= f.submit 'Similar Images by Image Title' %>
+      <% end %>
+
+      <%= form_with url: '/images/by_photographer', method: :get, local: true do |f| %>
+        <%= f.hidden_field :photographer, value: image.photographer %>
+        <%= f.submit 'Similar Images by Photographer' %>
+      <% end %>
+    <br>
   </div>
 <% end %>
