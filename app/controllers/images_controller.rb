@@ -1,5 +1,5 @@
 class ImagesController < ApplicationController
   def index
-    @images = ImageFacade.new(params[:subject])
+    @images = ImageFacade.find_images(params[:subject])
   end
 end
