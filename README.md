@@ -51,6 +51,10 @@ Run `bundle exec rspec`
 ## Deployment Instructions
 - Run `rails s`
 - In your browser, visit `localhost:3000`
+- Click on `Discover Images`
+- Enter the subject you wish to search by (i.e. `ocean`) then select `Search`
+- On the image search results page, each image has a find `Similar Images by Image Title` and a find `Similar Images by Photographer`. If you select `Similar Images by Image Title`, you will be taken to a image search by image title results page. If you select `Similar Images by Photographer`, you will be taken to a image search by image photographer results page.
+- To start a new search, visit `localhost:3000`
 
 ## Screenshots
 ### Welcome Page
