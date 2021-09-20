@@ -1,7 +1,13 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
 require 'simplecov'
-SimpleCov.start
+SimpleCov.start do
+  add_filter 'spec/'
+  add_filter 'app/channels/'
+  add_filter 'app/jobs/'
+  add_filter 'app/mailers/'
+end
+
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../config/environment', __dir__)
 # Prevent database truncation if the environment is production
@@ -72,3 +78,11 @@ Shoulda::Matchers.configure do |config|
   end
 end
 
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
+  config.hook_into :webmock
+  config.filter_sensitive_data('DONT_SHARE_MY_PROPUBLIC_SECRET_KEY') { ENV['pexels_api_key'] }
+  config.default_cassette_options = { re_record_interval: 7.days }
+  config.configure_rspec_metadata!
+  # config.allow_http_connections_when_no_cassette = true
+end
