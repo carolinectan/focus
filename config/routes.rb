@@ -5,4 +5,5 @@ Rails.application.routes.draw do
 
   get '/discover', to: 'discover#index'
   get '/images', to: 'images#index'
+  get '/images/by_title', to: 'images#by_title'
 end
