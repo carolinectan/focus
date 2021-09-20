@@ -1,6 +1,6 @@
 class ImageFacade
-  def self.find_images(subject)
-    json = ImageService.get_images(subject)
+  def self.find_images(query)
+    json = ImageService.get_images(query)
 
     json[:photos].map do |info|
       Image.new(info)
