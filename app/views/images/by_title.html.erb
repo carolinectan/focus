@@ -1,0 +1,10 @@
+<h1>Similar Images by Image Title Results</h1>
+
+<p>Searched for "<%= params[:title] %>"</p>
+
+<% @images.each do |image| %>
+  <div id="image-id-<%= image.id %>">
+    <img src="<%= image.url %> alt="<%= params[:title] %> width="800"">
+    <br>
+  </div>
+<% end %>
