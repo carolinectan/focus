@@ -2,6 +2,8 @@
 
 Welcome to Focus! This Ruby on Rails application consumes the Pexels API to allow users to search for images based on a subject matter search query, as well as search for similar images based on an image's title or photographer.
 
+This image repository was fully tested with RSpec, Capybara, WebMock, VCR, Postman, Postman, and SimpleCov — all tests passing; 100% coverage.
+
 ## Table of Contents
 - [Technologies](#technologies)
 - [System Dependencies](#system-dependencies)
@@ -20,10 +22,8 @@ Welcome to Focus! This Ruby on Rails application consumes the Pexels API to allo
 |[Pry](https://rubygems.org/gems/pry/versions/0.10.3)|[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)|[Webmock](https://github.com/bblimke/webmock)
 |[PostgresQL](https://www.postgresql.org/)|[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)|[VCR](https://github.com/vcr/vcr)
 |[Faraday](https://github.com/lostisland/faraday)|[Rubocop](https://rubygems.org/gems/rubocop/versions/0.39.0)|[Launchy](https://rubygems.org/gems/launchy/versions/2.4.3)
-|[Figaro](https://github.com/laserlemon/figaro)|[Atom](https://atom.io/)|[Orderly](https://github.com/jmondo/orderly)
+|[Figaro](https://github.com/laserlemon/figaro)|[Atom](https://atom.io/)|[Postman](https://www.postman.com/product/rest-client/)
 |||[SimpleCov](https://rubygems.org/gems/simplecov/versions/0.12.0)
-|||[Postman](https://www.postman.com/product/rest-client/)|
-
 
 ## System Dependencies
 You will need to sign up for a Pexels API Key:
