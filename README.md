@@ -10,7 +10,7 @@ Welcome to Focus! This Ruby on Rails application consumes the Pexels API to allo
 You will need to sign up for a Pexels API Key:
 1. Sign in/register for a Pexels account [here](https://www.pexels.com/join/)
 2. Confirm your email address via email in your inbox/spam inbox.
-3. [Sign up for an API Key](https://www.pexels.com/api/new/) Fill out the `Generate a Pexels API Key` and select `Generate API Key`.
+3. [Sign up for an API Key.](https://www.pexels.com/api/new/) Fill out the `Generate a Pexels API Key` and select `Generate API Key`.
 
 ## Configuration
 - Clone repo
@@ -25,7 +25,7 @@ You will need to sign up for a Pexels API Key:
 <!-- * Database initialization -->
 
 ## How to run the test suite
-`bundle exec rspec`
+Run `bundle exec rspec`
 
 <!-- * Services (job queues, cache servers, search engines, etc.) -->
 
