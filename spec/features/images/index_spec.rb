@@ -8,7 +8,8 @@ RSpec.describe 'images index page', type: :feature do
     click_on 'Search'
 
     expect(current_path).to eq('/images')
-    expect(page).to have_content('Image Search Results for "ocean"')
+    expect(page).to have_content('Image Search Results')
+    expect(page).to have_content('Searched for "ocean"')
     expect(page).to have_css('img', :count => 80)
 
     within '#image-id-189349' do
