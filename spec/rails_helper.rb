@@ -11,7 +11,7 @@ end
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../config/environment', __dir__)
 # Prevent database truncation if the environment is production
-abort("The Rails environment is running in production mode!") if Rails.env.production?
+abort('The Rails environment is running in production mode!') if Rails.env.production?
 require 'rspec/rails'
 # Add additional requires below this line. Rails is not loaded until this point!
 
@@ -73,13 +73,13 @@ end
 
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
-     with.test_framework :rspec
-     with.library :rails
+    with.test_framework :rspec
+    with.library :rails
   end
 end
 
 VCR.configure do |config|
-  config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
+  config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   config.hook_into :webmock
   config.filter_sensitive_data('DONT_SHARE_MY_PROPUBLIC_SECRET_KEY') { ENV['pexels_api_key'] }
   config.default_cassette_options = { re_record_interval: 7.days }
