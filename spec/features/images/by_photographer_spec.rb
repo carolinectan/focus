@@ -15,6 +15,6 @@ RSpec.describe 'images by photographer page', type: :feature do
     expect(page).to have_content('Similar Images by Photographer Results')
 
     expect(page).to have_content('Searched for "Sebastian Voortman"')
-    expect(page).to have_css('img', :count => 40)
+    expect(page).to have_css('img', count: 40)
   end
 end
