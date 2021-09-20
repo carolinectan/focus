@@ -1,6 +1,6 @@
 # README
 
-Welcome to Focus! This Ruby on Rails application consumes the Pexels API to allow users to search for images based on a subject matter search query, as well as searching for similar images based on an image's title or photographer.
+Welcome to Focus! This Ruby on Rails application consumes the Pexels API to allow users to search for images based on a subject matter search query, as well as search for similar images based on an image's title or photographer.
 
 ## Versions
 - Rails 5.2.6
