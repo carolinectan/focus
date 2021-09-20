@@ -1,1 +1,8 @@
-<h1>Image Results</h1>
+<h1>Image Search Results for "<%= params[:subject] %>"</h1>
+
+<% @images.each do |image| %>
+  <div id="image-id-<%= image.id %>">
+    <img src="<%= image.url %> alt="<%= params[:subject] %> width="800"">
+    <br>
+  </div>
+<% end %>
