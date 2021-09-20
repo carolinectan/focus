@@ -28,7 +28,7 @@ This image repository was fully tested with RSpec, Capybara, WebMock, VCR, Postm
 ## System Dependencies
 You will need to sign up for a Pexels API Key:
 1. Sign in/register for a Pexels account [here](https://www.pexels.com/join/)
-2. Confirm your email address via email in your inbox/spam inbox.
+2. If you just registered, confirm your email address via email in your inbox/spam inbox.
 3. [Sign up for an API Key.](https://www.pexels.com/api/new/) Fill out the `Generate a Pexels API Key` and select `Generate API Key`.
 
 ## Configuration
@@ -53,7 +53,7 @@ Run `bundle exec rspec`
 - In your browser, visit `localhost:3000`
 - Click on `Discover Images`
 - Enter the subject you wish to search by (i.e. `ocean`) then select `Search`
-- On the image search results page, each image has a find `Similar Images by Image Title` and a find `Similar Images by Photographer`. If you select `Similar Images by Image Title`, you will be taken to a image search by image title results page. If you select `Similar Images by Photographer`, you will be taken to a image search by image photographer results page.
+- On the image search results page, each image has a find `Similar Images by Image Title` and a find `Similar Images by Photographer` button. If you select `Similar Images by Image Title`, you will be taken to a image search by image title results page. If you select `Similar Images by Photographer`, you will be taken to a image search by image photographer results page.
 - To start a new search, visit `localhost:3000`
 
 ## Screenshots
