@@ -2,11 +2,30 @@
 
 Welcome to Focus! This Ruby on Rails application consumes the Pexels API to allow users to search for images based on a subject matter search query, as well as search for similar images based on an image's title or photographer.
 
-## Versions
-- Rails 5.2.6
-- Ruby 2.7.2
+## Table of Contents
+- [Technologies](#technologies)
+- [System Dependencies](#system-dependencies)
+- [Configuration](#configuration)
+- [Database Creation](#database-creation)
+- [How to Run the Test Suite](#how-to-run-the-test-suite)
+- [Deployment Instructions](#deployment-instructions)
+- [Screenshots](#screenshots)
+- [Resources](#resources)
 
-## System dependencies
+## Technologies
+|Development|Development|Testing
+|--- |--- |--- |
+|[Rails 5.2.6](https://rubygems.org/gems/rails/versions/5.2.6)|[Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)|[RSpec for Rails](https://github.com/rspec/rspec-rails)
+|[Ruby 2.7.2](https://www.ruby-lang.org/en/downloads/)|[Github](https://desktop.github.com/)|[Capybara](https://github.com/teamcapybara/capybara)
+|[Pry](https://rubygems.org/gems/pry/versions/0.10.3)|[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)|[Webmock](https://github.com/bblimke/webmock)
+|[PostgresQL](https://www.postgresql.org/)|[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)|[VCR](https://github.com/vcr/vcr)
+|[Faraday](https://github.com/lostisland/faraday)|[Rubocop](https://rubygems.org/gems/rubocop/versions/0.39.0)|[Launchy](https://rubygems.org/gems/launchy/versions/2.4.3)
+|[Figaro](https://github.com/laserlemon/figaro)|[Atom](https://atom.io/)|[Orderly](https://github.com/jmondo/orderly)
+|||[SimpleCov](https://rubygems.org/gems/simplecov/versions/0.12.0)
+|||[Postman](https://www.postman.com/product/rest-client/)|
+
+
+## System Dependencies
 You will need to sign up for a Pexels API Key:
 1. Sign in/register for a Pexels account [here](https://www.pexels.com/join/)
 2. Confirm your email address via email in your inbox/spam inbox.
@@ -16,7 +35,7 @@ You will need to sign up for a Pexels API Key:
 - Clone repo
 - Run `bundle install`
 
-## Database creation
+## Database Creation
 - Run `rails db:create`
 - Run `bundle exec figaro install`
 - Open your `config/application.yml` file in your code editor (You may have to open it manually)
@@ -24,12 +43,12 @@ You will need to sign up for a Pexels API Key:
 
 <!-- * Database initialization -->
 
-## How to run the test suite
+## How to Run the Test Suite
 Run `bundle exec rspec`
 
 <!-- * Services (job queues, cache servers, search engines, etc.) -->
 
-## Deployment instructions
+## Deployment Instructions
 - Run `rails s`
 - In your browser, visit `localhost:3000`
 
