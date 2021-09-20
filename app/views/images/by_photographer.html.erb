@@ -1,0 +1,10 @@
+<h1>Similar Images by Photographer Results</h1>
+
+<p>Searched for "<%= params[:photographer] %>"</p>
+
+<% @images.each do |image| %>
+  <div id="image-id-<%= image.id %>">
+    <img src="<%= image.url %> alt="<%= params[:photographer] %> width="800"">
+    <br>
+  </div>
+<% end %>
