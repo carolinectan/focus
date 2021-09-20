@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'discover index page', type: :feature do
-  it 'displays a form to search for images by term' do
+  it 'displays a form to search for images by term', :vcr do
     visit '/discover'
 
     expect(page).to have_content('Discover Images')

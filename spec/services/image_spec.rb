@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe ImageService do
   describe 'class methods' do
     describe '.get_images' do
-      it 'returns images based on search query' do
+      it 'returns images based on search query', :vcr do
         images = ImageService.get_images('ocean')
 
         expect(images).to be_a Hash

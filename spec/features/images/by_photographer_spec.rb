@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'images by photographer page', type: :feature do
-  it 'displays images that have a similar photographer name' do
+  it 'displays images that have a similar photographer name', :vcr do
     visit '/discover'
 
     fill_in :subject, with: 'ocean'

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'images by title page', type: :feature do
-  it 'displays images that have a similar title' do
+  it 'displays images that have a similar title', :vcr do
     visit '/discover'
 
     fill_in :subject, with: 'ocean'
